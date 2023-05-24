@@ -7,6 +7,7 @@ openai.api_key = api_key
 problem = "There is a problem Comming. Please check your internet or Troubleshoot"
 # Function to send a message to the OpenAI chatbot model and return its response
 def send_message(message_log):
+#this is git status checking
     # Use OpenAI's ChatCompletion API to get the chatbot's response
     try:
         response = openai.ChatCompletion.create(
